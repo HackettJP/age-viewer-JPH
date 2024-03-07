@@ -160,7 +160,7 @@ const Editor = ({
                   size="lg"
                 />
               </button> */}
-              <button className={command ? 'btn show-eraser' : 'btn hide-eraser'} type="button" id="eraser" onDoubleClick={() => clearCommand()}>
+              <button className={command ? 'btn show-eraser' : 'btn hide-eraser'} type="button" aria-label="aria1btnshoweraser" id="eraser" onDoubleClick={() => clearCommand()}>
                 <FontAwesomeIcon
                   icon={faTimesCircle}
                   size="1x"
@@ -169,6 +169,7 @@ const Editor = ({
               <button
                 className="frame-head-button btn btn-link"
                 type="button"
+                aria-label="aria2btnlink"
                 onClick={() => onClick()}
                 title="Run Query"
               >
@@ -177,6 +178,7 @@ const Editor = ({
               <button
                 className="frame-head-button btn btn-link"
                 type="button"
+                aria-label="aria3btnlink"
                 onClick={() => {
                   toggleMenu('home');
                   /*
@@ -196,6 +198,7 @@ const Editor = ({
               <button
                 className="frame-head-button btn btn-link"
                 type="button"
+                aria-label="aria4btnlink"
                 onClick={() => setLabel()}
                 title="Run Query"
               >
