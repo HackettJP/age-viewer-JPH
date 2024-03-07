@@ -179,6 +179,7 @@ class CypherResultCytoscapeLegend extends Component {
           </div>
           <button
             type="button"
+            aria-label="aria11btnlink"
             className="frame-head-button btn btn-link px-3"
             onClick={() => this.setState({ nodeLegendExpanded: !nodeLegendExpanded })}
           >
@@ -194,6 +195,7 @@ class CypherResultCytoscapeLegend extends Component {
           </div>
           <button
             type="button"
+            aria-label="aria12btnlink"
             className="frame-head-button btn btn-link px-3"
             onClick={() => this.setState({ edgeLegendExpanded: !edgeLegendExpanded })}
           >
