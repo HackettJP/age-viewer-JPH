@@ -429,6 +429,7 @@ const SidebarHome = ({
             <button
               className="frame-head-button refresh_button btn btn-link"
               type="button"
+              aria-label="aria13refreshbutton"
               onClick={() => refreshSidebarHome()}
             >
               <FontAwesomeIcon
@@ -446,6 +447,7 @@ const SidebarHome = ({
             <button
               className="frame-head-button close_session btn btn-link"
               type="button"
+              aria-label="aria14closesesseion"
               color="#142B80"
               onClick={() => confirm({
                 title: 'Are you sure you want to close this window?',
